@@ -1,7 +1,7 @@
 import sys
 import pexpect
 
-PROMPT = ['# ','>>> ','> ','\$ ']
+PROMPT = ['# ','>>> ','> ','\$ ','']
 
 if len(sys.argv) != 3:
     print 'argc erro'
